@@ -1,0 +1,36 @@
+body{
+    height:100%;
+}
+#container{
+    width:90%;
+    padding:2%;
+}
+#Popclistbtn{
+    color: rgba(61, 135, 130, 0.606488);
+    border:none;
+    background-color: transparent;
+}
+#profilepic2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align:center;
+}
+#profilepic{
+    background-color: #5CC8EE;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align:center;
+}
+#popclistForm{
+    padding-bottom: 30%;
+}
+#addbtn{
+    opacity:0.5;
+}
+#addbtn:hover{
+    opacity:1;
+}

@@ -1,0 +1,8 @@
+config/s3.js
+config/keys.js
+/config/s3.js
+/config/keys.js
+/config/
+/config/*
+.env
+/node_modules
