@@ -3,13 +3,13 @@ const router = express.Router();
 const aws = require('aws-sdk');
 const multer = require('multer');
 const multerS3 = require('multer-s3');
-
+require('dotenv').config();
 
 //get keys for aws s3 database and update it
-const key = require('../../config/s3');
+//const key = require('../../config/s3');
 aws.config.update({
-    secretAccessKey: key.secretAccessKey,
-    accessKeyId: key.accessKeyId,
+    secretAccessKey: process.env.secretAccessKey,
+    accessKeyId: process.env.accessKeyId,
     region: 'us-east-1'
 });
 
